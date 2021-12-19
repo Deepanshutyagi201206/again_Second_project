@@ -1,0 +1,244 @@
+@media screen and (max-width:1240px) {
+    section a{
+        font-size: 15px;
+    }
+    section p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .body-section p{
+        margin-bottom: 20px;
+    }
+    /*banner-section*/
+    .banner-section{
+        padding: 0px 6vw;
+        padding-top: 60px;
+    }
+    .frontend-developer h1{
+        font-size: 35px;
+    }
+    .banner-left-section .apply-now{
+        padding: 17px 35px;
+        border-radius: 4px;
+        margin-top: 30px;
+        box-shadow: 5px 5px 0 #af3b95;
+    }
+    .frontend-developer{
+        padding: 30px 0;
+    }
+    .banner-left-section{
+        padding: 48px 0;
+    }
+    .banner-left-section ul li a{
+        padding-right: 5px;
+        top: 3px;
+    }
+
+    .body-section h1{
+        font-size: 33px;
+        width: fit-content;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #fa03a2;
+        margin-bottom: 20px;
+    }
+
+    .job-description-summary-section{
+        padding: 48px 6vw;
+        padding-bottom: 12px;
+    }
+
+    /*summary-section*/
+    .job-description-summary-section .summary-section{
+        padding: 30px 12px;
+        padding-right: 24px;
+        top: 25px;
+        box-shadow: 0 0 5px #cbcbcb;
+        border-left: 3px solid #fa03a2;
+    }
+    .job-description-summary-section .summary-section .head-section h3{
+        left: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .job-description-summary-section .summary-section .body-section{
+        padding-left: 12px;
+    }
+    .job-description-summary-section .summary-section .body-section h3{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    /*people-saying*/
+    .people-saying .head h1 {
+        font-size: 24px;
+    }
+    .people-saying p{
+        margin: 0px;
+    }
+    .people-saying .about p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 24px;
+    }
+    .people-saying .show-right img, 
+    .people-saying .show-left img,
+    .people-saying .show-center img {
+        width: 90px;
+    }
+    .show .introduction .name p{
+        margin-bottom: 0px;
+    }
+    .people-saying button {
+        font-size: 20px;
+        padding: 12px 14px;
+        top: 138px;
+    }
+    .people-saying .next, 
+    .people-saying .prev,
+    .people-saying .show {
+        padding: 24px 12px;
+        padding-bottom: 35px;
+        height: 320px;
+        overflow: hidden;
+    }
+    .people-saying .show, .people-saying .next, .people-saying .prev{
+        border-radius: 5px;
+    }
+    .people-saying .show-right, .people-saying .show-left, .people-saying .show-center{
+        border-radius: 5px;
+        box-shadow: 0 0 12px #cfcbcb;
+    }
+    .people-saying-body button img{
+        width: 30px;
+        height: auto;
+    }
+
+    /*related-jobs-section*/
+    .related-jobs-section h1{
+        border: 0px;
+    }
+    .related-jobs-section .body-section h1 {
+        font-size: 24px;
+    }
+    .related-jobs-section .location h1, 
+    .related-jobs-section .posted h1{
+        font-size: 18px;
+    }
+    .related-jobs-section .body-section .description {
+        font-size: 14px;
+    }
+    .related-jobs-section .body-section a {
+        padding: 6px 20px;
+        border-radius: 4px;
+    }
+    .responsibilities, .requirements, .perks, .related-jobs-section {
+        padding-bottom: 12px;
+    }
+    .perks{
+        padding-bottom: 36px;
+    }
+    .people-saying .head{
+        padding-top: 36px;
+    }
+    .people-saying-body{
+        padding: 44px 3vw;
+    }
+    .related-jobs-section{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    .related-jobs-section .main-section{
+        padding: 30px 18px;
+        box-shadow: 0 0 6px #cbcbcb;
+        border-left: 3px solid #fa03a2;
+    }
+    .related-jobs-section .body-section .view{
+        padding-top: 44px;
+    }
+    .related-jobs-section .location{
+        padding: 12px 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    /*banner-section*/
+    .frontend-developer h1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner-section{
+        display: block;
+        padding-bottom: 48px;
+    }
+    .frontend-developer h1{
+        font-size: 22px;
+    }
+    .banner-left-section .apply-now{
+        padding: 14px 28px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 0 #af3b95;
+    }
+    .body-section h1{
+        font-size: 22px;
+        border-bottom: 3px solid #fa03a2;
+    }
+    .people-saying .show-left, 
+    .people-saying .show-right{
+        display: none;
+    }
+    .people-saying .show-center{
+        width: 80%;
+        margin: 0 10px;
+    }
+    .people-saying-body button img{
+        width: 20px;
+        height: auto;
+    }
+
+    /*.job-description-summary-section*/
+    .job-description-summary-section{
+        display: block;
+        padding-bottom: 48px;
+    }
+    .job-description-summary-section .summary-section{
+        top: 0px;
+        padding-right: 15px;
+    }
+    .related-jobs-section .body-section{
+        display: block;
+    }
+    .related-jobs-section .main-section{
+        margin-bottom: 10px;
+    }
+
+    /*people-saying*/
+    .people-saying .head h1 {
+        font-size: 20px;
+    }
+
+    /*related-jobs-section*/
+    .related-jobs-section h1{
+        border: 0px;
+    }
+    .related-jobs-section .body-section h1 {
+        font-size: 18px;
+    }
+    .related-jobs-section .location h1, 
+    .related-jobs-section .posted h1{
+        font-size: 16px;
+    }
+    .people-saying button {
+        font-size: 20px;
+        padding: 12px 14px;
+        top: 145px;
+    }
+
+}
+@media screen and (max-width:576px) {
+    .banner-left-section .apply-now{
+        padding: 12px 24px;
+        border-radius: 4px;
+        font-size: 14px;
+        box-shadow: 5px 5px 0 #af3b95;
+    }
+}

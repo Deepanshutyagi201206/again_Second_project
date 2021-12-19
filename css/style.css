@@ -1,0 +1,291 @@
+section *{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+section p{
+    font-size: 1.4vw;
+    line-height: 2vw;
+}
+section a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+.responsibilities p,
+.requirements p,
+.perks p{
+    display: flex;
+}
+.responsibilities p img,
+.requirements p img,
+.perks p img{
+    height: fit-content;
+}
+
+/*banner-section*/
+.banner-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #f2f2f2;
+    padding: 0 6vw;
+    padding-top: 4.5vw;
+}
+.frontend-developer{
+    padding: 4vw 0;
+}
+.banner-left-section{
+    padding: 4vw 0;
+}
+.frontend-developer .last-child{
+    margin-top: 1vw;
+}
+.frontend-developer h1{
+    font-size: 3.7vw;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-left-section ul li{
+    display: inline-block;
+}
+.banner-left-section ul li a{
+    padding-right: .45vw;
+    position: relative;
+    top: .2vw;
+}
+.internship,
+.job-search{
+    color: #2f6cf4;
+}
+.banner-left-section ul li span{
+    display: inline-block;
+    color: #cbcaca;
+}
+.banner-right-section img{
+    width: 100%;
+    height: 100%;
+}
+.banner-left-section .apply-now{
+    margin-top: 5vw;
+    background-color: black;
+    color: white;
+    padding: 1.4vw 3vw;
+    border-radius: 0.4vw;
+    box-shadow: .4vw .4vw 0 #af3b95;
+}
+
+/*body-section*/
+
+.body-section p{
+    margin-bottom: 1.5vw;
+}
+.body-section h1{
+    font-size: 3vw;
+    width: fit-content;
+    padding-bottom: 0.4vw;
+    border-bottom: 0.4vw solid #fa03a2;
+    margin-bottom: 1.5vw;
+}
+
+
+/*job-description-summary-section*/
+.job-description-summary-section{
+    padding: 4vw 6vw;
+    display: grid;
+    padding-bottom: 1vw;
+    grid-template-columns: 65% auto;
+}
+.job-description-summary-section .job-description-section{
+    padding-right: 5vw;
+}
+.job-description-summary-section .summary-section{
+    padding: 2.5vw 1vw;
+    padding-right: 2vw;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 5vw;
+    box-shadow: 0 0 0.5vw #cbcbcb;
+    border-left: 0.4vw solid #fa03a2;
+}
+.job-description-summary-section .summary-section .head-section h3{
+    font-family: normal;
+    position: relative;
+    left: 1.5vw;
+    margin-bottom: 2vw;
+}
+.job-description-summary-section .summary-section .body-section{
+    padding-left: 1vw;
+}
+.job-description-summary-section .summary-section .body-section h3{
+    margin-bottom: 1.5vw;
+}
+.job-description-summary-section .summary-section .body-section .last-child{
+    margin-bottom: 0px;
+}
+.job-description-summary-section .summary-section .body-section .color-change{
+    color: #fa03a2;
+}
+
+/*responsibilities*/
+.responsibilities,
+.requirements,
+.perks,
+.related-jobs-section{
+    padding:0 6vw;
+    padding-bottom: 2vw;
+}
+.perks{
+    padding-bottom: 3vw;
+}
+
+/*people-saying*/
+.people-saying{
+    background-color: #f2f2f2;
+}
+.people-saying .head{
+    text-align: center;
+    padding-top: 3vw;
+}
+.people-saying .head h1{
+    font-size: 2vw;
+    border: 0px;
+    margin: auto;
+}
+.people-saying-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 3vw;
+}
+.people-saying button{
+    border: 0px;
+    font-size: 2vw;
+    padding: 1vw 1.4vw;
+    border-radius: 100%;
+    background-color: #cccccc;
+    color: white;
+    position: relative;
+    top: 11vw;
+}
+.people-saying button:hover{
+    background-color: #fe0094;
+}
+.people-saying .show,
+.people-saying .next,
+.people-saying .prev{
+    display: none;
+    background-color: white;
+    border-radius: .4vw;
+}
+.people-saying .next,
+.people-saying .prev,
+.people-saying .show{
+    padding: 2vw 1vw;
+    padding-bottom: 3.5vw;
+    height: 26vw;
+    overflow: hidden;
+}
+.people-saying .show-prev,
+.people-saying .show-next,
+.people-saying .show-last{
+    display: block;
+}
+.people-saying .show-left,
+.people-saying .show-right,
+.people-saying .show-center{
+    width: 25%;
+}
+.people-saying .show-right img,
+.people-saying .show-left img,
+.people-saying .show-center img{
+    border-radius: 100%;
+    width: 8vw;
+    height: auto;
+}
+.people-saying .show-right,
+.people-saying .show-left,
+.people-saying .show-center{
+    box-shadow: 0 0 1vw #cfcbcb;
+    height: fit-content;
+    background-color: white;
+    border-radius: .4vw;
+}
+.people-saying p{
+    margin: 0px;
+}
+
+.people-saying .about p{
+    font-size: 1.2vw;
+    color: grey;
+    line-height: 1.8vw;
+    margin-top: 2vw;
+}
+.people-saying .color-change{
+    color: #554f4f;
+}
+.people-saying .introduction{
+    text-align: center;
+}
+.people-saying-body .previous-button img{
+    transform: rotate(-180deg);
+}
+.people-saying-body button img{
+    width: 2.5vw;
+    height: auto;
+}
+
+
+/*related-jobs-section*/
+.related-jobs-section{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.related-jobs-section h1{
+    border-bottom: 0px;
+    margin-bottom: 3vw;
+}
+
+.related-jobs-section .body-section{
+    display: grid;
+    grid-template-columns: 31.3% 31.3% 31.3%;
+    grid-gap: 2.5vw;
+}
+.related-jobs-section .main-section{
+    padding: 2.5vw 1.5vw;
+    box-shadow: 0 0 0.5vw #cbcbcb;
+    border-left: 0.4vw solid #fa03a2;
+}
+.related-jobs-section .body-section p{
+    margin: 0px;
+}
+.related-jobs-section .body-section .description{
+    font-size: 1.15vw;
+}
+.related-jobs-section .body-section h1{
+    font-size: 2vw;
+    margin: 0px;
+}
+.related-jobs-section .location{
+    padding: 1vw 0;
+}
+.related-jobs-section .location,
+.related-jobs-section .posted{
+    display: flex;
+}
+.related-jobs-section .location h1,
+.related-jobs-section .posted h1{
+    font-size: 1.5vw;
+    position: relative;
+    top: .2vw;
+    left: .3vw;
+}
+.related-jobs-section .body-section .view{
+    text-align: center;
+    padding-top: 4vw;
+}
+.related-jobs-section .body-section a{
+    color: white;
+    background-color: #fe0094;
+    padding: .6vw 2.5vw;
+    border-radius: .3vw;
+}
